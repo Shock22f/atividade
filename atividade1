@@ -1,0 +1,18 @@
+/******************************************************************************
+ Crie um programa que receba um número inteiro e exiba o dobro desse número.
+
+*******************************************************************************/
+#include <stdio.h>
+
+int main(){
+    int numero, dobro;
+    
+    scanf("%d", &numero);
+    
+    dobro = numero * 2;
+    
+    printf("o dobro eh: %d", dobro);
+    
+    
+    return 0;
+}
